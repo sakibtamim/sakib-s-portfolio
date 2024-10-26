@@ -1,0 +1,40 @@
+.footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Center text */
+  padding: 20px 0; /* Padding for vertical spacing */
+  position: relative; /* Relative positioning */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+}
+
+.footer-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Space between icons and copyright */
+}
+
+.footer-content a {
+  color: white; /* Icon color */
+  font-size: 24px; /* Size of icons */
+  margin: 0 15px; /* Spacing between icons */
+  transition: color 0.3s; /* Transition for hover effect */
+}
+
+.footer-content a:hover {
+  color: #1da1f2; /* Change color on hover (example: Twitter blue) */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Font size for copyright text */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  .footer-content a {
+    font-size: 20px; /* Slightly smaller icons on mobile */
+    margin: 0 10px; /* Less margin on mobile */
+  }
+}

@@ -1,0 +1,64 @@
+.volunteer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px; /* Optional padding */
+  box-sizing: border-box;
+}
+
+.volunteer-heading {
+  font-size: 2.5rem; /* Font size for heading */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.volunteer-list {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Limit max width */
+  margin: 0 auto; /* Center the list */
+}
+
+.volunteer-item {
+  display: flex; /* Flex for item layout */
+  margin-bottom: 20px; /* Space between items */
+  border: 1px solid #ddd; /* Optional border for items */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  background-color: #fff; /* Background color for items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.volunteer-image-container {
+  flex: 0 0 250px; /* Increased width for image container */
+  height: 200px; /* Fixed height for image container */
+}
+
+.volunteer-image {
+  width: 100%; /* Responsive image */
+  height: 100%; /* Fill container height */
+  object-fit: fill; /* Cover the area while preserving aspect ratio */
+}
+
+.volunteer-details {
+  padding: 15px; /* Space inside details */
+  flex-grow: 1; /* Allow details to grow */
+}
+
+.volunteer-details h3 {
+  font-size: 1.5rem; /* Font size for subheading */
+  margin: 0; /* Remove margin */
+}
+
+.volunteer-details p {
+  font-size: 1rem; /* Font size for date */
+  color: #666; /* Lighter color for date */
+}
+
+.volunteer-details ul {
+  padding-left: 20px; /* Space before list items */
+}

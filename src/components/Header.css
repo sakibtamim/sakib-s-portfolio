@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #282c34; /* Dark background for the header */
+  padding: 20px; /* Padding around the header */
+  color: white; /* Text color */
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Position it at the top of the page */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it is above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.header h1 {
+  margin: 0; /* Remove default margin */
+}
+
+nav {
+  margin-top: 10px; /* Space between the title and navigation */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Align items in a row */
+}
+
+nav li {
+  margin: 0 15px; /* Space between items */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+nav a.active {
+  color: #007bff; /* Active link color */
+  font-weight: bold; /* Bold active link */
+}
+
+/* Add margin to body to prevent content from being hidden under the fixed header */
+body {
+  margin-top: 80px; /* Adjust this value based on header height */
+}
+
+nav a.active {
+  color: #007bff; /* Active link color */
+  font-weight: bold; /* Bold active link */
+}
