@@ -13,7 +13,7 @@ const About = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="about-container">
-        <img src="/sakib.jpg" alt="Profile" className="about-image" />
+        <img src="/sakib.JPG" alt="Profile" className="about-image" />
         <div className="gap"></div>
         <h2 className="name-header">MD NAZMUS SAKIB TAMIM</h2>
         <div className="gap"></div> {/* Added gap for spacing */}

@@ -34,7 +34,7 @@ const Volunteer = () => {
             onClick={() => handleImageClick("/basissoftexpo.jpg")}
           >
             <img
-              src="/basissoftexpo.jpg"
+              src="/basissoftexpo.JPG"
               alt="BASIS SoftExpo"
               className="volunteer-image"
             />
@@ -71,7 +71,7 @@ const Volunteer = () => {
             className="volunteer-image-container"
             onClick={() => handleImageClick("/blood.jpg")}
           >
-            <img src="/blood.jpg" alt="Blood+" className="volunteer-image" />
+            <img src="/blood.JPG" alt="Blood+" className="volunteer-image" />
           </div>
           <div className="volunteer-details">
             <h3>Blood+</h3>
@@ -98,7 +98,7 @@ const Volunteer = () => {
             onClick={() => handleImageClick("/itgeeks.jpg")}
           >
             <img
-              src="/itgeeks.jpg"
+              src="/itgeeks.JPG"
               alt="IT Geeks"
               className="volunteer-image"
             />
