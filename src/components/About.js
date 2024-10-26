@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./About.css"; // Ensure you have this CSS file for styles
+import imageName from "../images/sakib.JPG";
 
 const About = () => {
   return (
@@ -13,7 +14,11 @@ const About = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="about-container">
-        <img src="/sakib.JPG" alt="Profile" className="about-image" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/sakib.JPG`}
+          alt="Profile"
+          className="about-image"
+        />
         <div className="gap"></div>
         <h2 className="name-header">MD NAZMUS SAKIB TAMIM</h2>
         <div className="gap"></div> {/* Added gap for spacing */}

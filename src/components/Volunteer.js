@@ -31,10 +31,14 @@ const Volunteer = () => {
         <li className="volunteer-item">
           <div
             className="volunteer-image-container"
-            onClick={() => handleImageClick("/basissoftexpo.jpg")}
+            onClick={() =>
+              handleImageClick(
+                `${process.env.PUBLIC_URL}/images/basissoftexpo.JPG`
+              )
+            }
           >
             <img
-              src="/basissoftexpo.JPG"
+              src={`${process.env.PUBLIC_URL}/images/basissoftexpo.JPG`}
               alt="BASIS SoftExpo"
               className="volunteer-image"
             />
@@ -69,9 +73,15 @@ const Volunteer = () => {
         <li className="volunteer-item">
           <div
             className="volunteer-image-container"
-            onClick={() => handleImageClick("/blood.jpg")}
+            onClick={() =>
+              handleImageClick(`${process.env.PUBLIC_URL}/images/blood.jpg`)
+            }
           >
-            <img src="/blood.JPG" alt="Blood+" className="volunteer-image" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/blood.JPG`}
+              alt="Blood+"
+              className="volunteer-image"
+            />
           </div>
           <div className="volunteer-details">
             <h3>Blood+</h3>
@@ -95,10 +105,12 @@ const Volunteer = () => {
         <li className="volunteer-item">
           <div
             className="volunteer-image-container"
-            onClick={() => handleImageClick("/itgeeks.jpg")}
+            onClick={() =>
+              handleImageClick(`${process.env.PUBLIC_URL}/images/itgeeks.JPG`)
+            }
           >
             <img
-              src="/itgeeks.JPG"
+              src={`${process.env.PUBLIC_URL}/images/itgeeks.JPG`}
               alt="IT Geeks"
               className="volunteer-image"
             />
